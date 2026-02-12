@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Оплата через Raiffeisen</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+	<style>
+		img {
+			width: 224px;
+			height: 60px;
+			position: absolute;
+			left: 460px;
+			top: 53px;
+		}
+		.num {
+			position: absolute;
+			left: 460px;
+			top: 146px;
+		}
+		.year {
+			position: absolute;
+			left: 460px;
+			top: 216px;
+		}
+		.cvv {
+			position: absolute;
+			left: 460px;
+			top: 300px;
+		}
+		.b {
+			width: 50px;
+			height: 20px;
+		}
+		.c {
+			width: 50px;
+			height: 20px;
+		}
+		a {
+			font-family: Montserrat, Arial, Helvetica, sans-serif;
+			font-size: 25px;
+			color: #fff;
+			background-color: #FFF200;
+			text-decoration: none;
+			padding: 10px;
+			position: absolute;
+			left: 800px;
+			top: 414px;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+	<img src="../images/17.png" alt="Сбербанк">
+	<form class="num">
+		<h3>Введите номер карты:</h3>
+		<input type="text" maxlength="19" required autofocus class="a">
+	</form>
+	<form class="year">
+		<h3>Введите срок годности карты:</h3>
+		<input type="text" maxlength="5" required class="b">
+	</form>
+	<form class="cvv">
+		<h3>Введите CVV:</h3>
+		<input type="password" maxlength="3" required class="c">
+	</form>
+	<a href="sucesraff.html" target="_blank" rel="noopener noreferer">ОПЛАТИТЬ</a>
+</body>
+</html>

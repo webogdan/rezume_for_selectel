@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Lato, Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #1A212F;
+	background-color: #fffefd;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	background: #FFFEFD;
+}
+nav ul {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	list-style: none;
+	margin: 0;
+	padding: 32px 95px 32px 0;
+	display: flex;
+}
+nav li {
+	margin-left: 30px;
+}
+nav li a {
+	text-decoration: none;
+	color:	#1A212F;
+}
+.logo {
+	padding: 12px 0 12px 98px;
+}
+.suites {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: 82px;
+    margin-left: 98px;
+}
+.filters h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.filters {
+    margin-left: 98px;
+}
+.money {
+    margin-top: 60px;
+}
+input [number] {
+    width: auto;
+}
+.square {
+	display: block;
+}
+.square span {
+	margin-left: 10px;
+	font-size: 14px;
+	line-height: 17px;
+}
+.square input {
+	margin-bottom: 15px;
+}
+.inventory {
+	display: block;
+}
+.inventory span {
+	margin-left: 10px;
+	font-size: 14px;
+	line-height: 17px;
+}
+.inventory input {
+	margin-bottom: 15px;
+}
+.quitfilter {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	text-decoration: none;
+	color: #1A212F;
+	border: 2px solid #FAC663;
+	box-sizing: border-box;
+	border-radius: 25px;
+	padding-left: 36px;
+	padding-right: 36px;
+	padding-top: 15px;
+	padding-bottom: 17px;
+}
